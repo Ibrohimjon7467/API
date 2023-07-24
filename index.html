@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Filter API</title>
+</head>
+<body>
+    <div class="container">
+        <label for="true">Completed</label>
+        <input type="radio" value="true" onchange="getValue(this)" name="list" id="true">
+        <label for="false">Not completed</label>
+        <input type="radio" value="false" onchange="getValue(this)" name="list" id="false">
+        <label for="all">All</label>
+        <input type="radio" value="all" onchange="getValue(this)" name="list" id="all">
+    </div>
+    <ul></ul>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
